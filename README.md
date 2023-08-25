@@ -50,8 +50,9 @@ __RTL of all the modules__
      6. [Register file](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/register.v)
      7. [Main module processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/processor.v)
 
-__Test Bench__: 
-   [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
+__Test Bench__:
+
+   1. [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
 Iverilog and gtkwave codelines(Presynthesis):
 ```
@@ -78,7 +79,41 @@ write_verilog <file_name>.v  OR    write_verilog -noattr  <file_name>.v
 ```
 
 The standard cells were invoked when mapped to the standard library file
+
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
+
+__Design Hierarchy__
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/7b4dd459-77f0-4121-b2c6-a0e329586aeb)
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/87cd52b6-6c04-4511-9e67-52e302eb5870)
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/12d7ac41-4814-403f-ba7f-a158b2331337)
+
+__synthesis output__
+
+MIPS Processor
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/500800f9-e693-41f1-a8b4-70ea236263d2)
+
+ALU Control Unit
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/1ed3e0f3-688d-4081-bf50-81f9eba95f4c)
+
+__GLS Simulation Result__
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3448e83d-30a5-4cc9-9d45-4a04ab8aff5d)
+
+
+
+
+
+
+
+
+
 
 
 
