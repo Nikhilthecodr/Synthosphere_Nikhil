@@ -10,32 +10,27 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/a8701511-3670-47b0-8841-65e8528316db)
 
-__Instruction Set of 16-bit MIPS Processor__
-```
-LW: Load Word - Load a 16-bit value from memory into a register.
-SW: Store Word - Store a 16-bit value from a register into memory.
+## Instruction set
 
-Arithmetic and Logic Instructions:
-ADD: Add - Add two registers and store the result in a destination register.
-SUB: Subtract - Subtract one register from another and store the result.
-AND: Bitwise AND - Perform bitwise AND operation between two registers.
-OR: Bitwise OR - Perform bitwise OR operation between two registers.
-XOR: Bitwise XOR - Perform bitwise XOR operation between two registers.
+| Instruction       | Operation                   | Description                                                                           |
+| ----------------- | --------------------------- | ------------------------------------------------------------------------------------- |
+| add rd, rs, rt    | rd = rs + rt                | rd = destination, rs, rt = source                                                     |
+| sub rd, rs, rt    | rd = rs – rt                | rd = destination, rs, rt = source                                                     |
+| mult rs, rt       | hi;lo = rs*rt               | hi, lo: two 16-bit registers in multiplier unit to store 32-bit multiplication result |
+| and rd, rs, rt    | rd = rs & rt                | rd = destination, rs, rt = source                                                     |
+| or rd, rs, rt     | rd = rs \| rt               | rd = destination, rs, rt = source                                                     |
+| addi rd, rs, I    | rd = rs + I                 | rd = destination, rs = source, I = 16-bit immediate value                             |
+| sll rd, rs, shamt | rd = rs << shamt            | rd = destination, rs = source, shamt = shift amount                                   |
+| slt rd, rs, rt    | rd = (rs < rt)              | rd = 1 if rs < rt, otherwise rd = 0                                                   |
+| mfhi rd           | rd = hi                     | Load hi from multiplier unit into register rd                                         |
+| mflo rd           | rd = lo                     | Load lo from multiplier unit into register rd                                         |
+| lw rd, i(rs)      | rd = rs[i]                  | rd = destination, rs = base address, i = offset                                       |
+| sw rs, i(rd)      | rd[i] = rs                  | rd = base address, rs = source, i = offset                                            |
+| beq rs, rt, label | if (rs == rt) jump to label | rs, rt = registers to compare, label = label to jump to                               |
+| blez rs, label    | if (rs <= 0) jump to label  | rs = register to compare, label = label to jump to                                    |
+| j label           | Jump to label               | label = label to jump to                                                              |
+| adds rd, rs, I    | rd = rs + I                 | rd = address, rs = source, I = 16-bit immediate value                                 |
 
-Control Transfer Instructions:
-BEQ: Branch if Equal - If two registers are equal, branch to a specified address.
-BNE: Branch if Not Equal - If two registers are not equal, branch.
-J: Jump - Unconditionally jump to a specified address.
-
-Immediate Instructions:
-ADDI: Add Immediate - Add a constant value to a register.
-ANDI: Bitwise AND with Immediate - Perform bitwise AND operation with a constant.
-ORI: Bitwise OR with Immediate - Perform bitwise OR operation with a constant.
-
-Shift Instructions:
-SLL: Shift Left Logical - Shift the bits of a register left by a specified amount.
-SRL: Shift Right Logical - Shift the bits of a register right by a specified amount.
-```
 __Block Diagram__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/c362af84-479c-4c02-856f-5fd6fb52ec5a)
