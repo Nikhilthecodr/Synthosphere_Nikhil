@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-//fpga4student.com: FPGA projects, Verilog projects, VHDL projects
 // Verilog project: Verilog code for 16-bit MIPS Processor
 // Testbench Verilog code for 16 bit single cycle MIPS CPU  
  module tb_mips16;  
