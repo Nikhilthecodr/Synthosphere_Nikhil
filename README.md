@@ -73,7 +73,7 @@ show
 write_verilog <file_name>.v  OR    write_verilog -noattr  <file_name>.v 
 ```
 
-The standard cells were invoked when mapped to the standard library file
+The following standard cells were invoked when mapped to the standard library file
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
 
