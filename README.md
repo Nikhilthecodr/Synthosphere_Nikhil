@@ -52,7 +52,7 @@ __RTL of all the modules__
 
 __Test Bench__:
 
-     i. [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
+     [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
 Iverilog and gtkwave codelines(Presynthesis):
 ```
