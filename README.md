@@ -36,7 +36,7 @@ Shift Instructions:
 SLL: Shift Left Logical - Shift the bits of a register left by a specified amount.
 SRL: Shift Right Logical - Shift the bits of a register right by a specified amount.
 ```
-# Block Diagram
+__Block Diagram__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/c362af84-479c-4c02-856f-5fd6fb52ec5a)
 
