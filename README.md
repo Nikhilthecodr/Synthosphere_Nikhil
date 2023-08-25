@@ -81,7 +81,7 @@ __Sythesized Netlist File__
 
  [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
 
-__Design Hierarchy__
+__Design hierarchy and number of instances__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
 
