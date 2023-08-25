@@ -105,7 +105,7 @@ __GLS Simulation Result__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3448e83d-30a5-4cc9-9d45-4a04ab8aff5d)
 
-The functionality of the PWM generator with variable duty cycle is retained post-synthesis. Hence the deisgn does not have Simulation-Synthesis Mismatch
+The functionality of 16-bit single cycle MIPS Processor is retained post-synthesis. Hence the deisgn does not have Simulation-Synthesis Mismatch
 
 
 
