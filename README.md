@@ -10,7 +10,7 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/a8701511-3670-47b0-8841-65e8528316db)
 
-## Instruction set
+### Instruction set
 
 | Instruction       | Operation                   | Description                                                                           |
 | ----------------- | --------------------------- | ------------------------------------------------------------------------------------- |
@@ -31,11 +31,11 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 | j label           | Jump to label               | label = label to jump to                                                              |
 | adds rd, rs, I    | rd = rs + I                 | rd = address, rs = source, I = 16-bit immediate value                                 |
 
-__Block Diagram__
+### Block Diagram
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/c362af84-479c-4c02-856f-5fd6fb52ec5a)
 
-__RTL of all the modules__
+### RTL of all the modules
 * Program links:-
      1. [ALU Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu.v)
      2. [ALU Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu_unit.v)
@@ -45,24 +45,24 @@ __RTL of all the modules__
      6. [Register file](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/register.v)
      7. [Main module processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/processor.v)
 
-__Test Bench__:
+### Test Bench:
 
 [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
-__Iverilog and gtkwave codelines:__
+### Iverilog and gtkwave codelines:
 ```
 - iverilog <filetop.v> <file1.v> …. <tb_filetop.v>
 - ./a.out
 Copy the generated dumpfile.vcd and run it with
 - gtkwave dumpfile.vcd
 ```
-__RTL Simulation Waveform__
+### RTL Simulation Waveform
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3c411e04-21fd-4872-97a9-7020704dbbe3)
 
-__Synthesis__
+### Synthesis
 
- Flow for synthesis
+ ### Flow for synthesis
  ```
 yosys
 read_liberty -lib <relative or abs path>/ lib file 
@@ -77,11 +77,11 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
 
-__Sythesized Netlist File__
+### Sythesized Netlist File
 
  [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
 
-__Design hierarchy and number of instances__
+### Design hierarchy and number of instances
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
 
@@ -91,17 +91,17 @@ __Design hierarchy and number of instances__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/12d7ac41-4814-403f-ba7f-a158b2331337)
 
-__Synthesis output__
+### Synthesis output
 
-MIPS Processor
+__MIPS Processor__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/500800f9-e693-41f1-a8b4-70ea236263d2)
 
-ALU Control Unit
+__ALU Control Unit__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/1ed3e0f3-688d-4081-bf50-81f9eba95f4c)
 
-__GLS Simulation Result__
+### GLS Simulation Result
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3448e83d-30a5-4cc9-9d45-4a04ab8aff5d)
 
