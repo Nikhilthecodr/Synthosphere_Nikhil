@@ -85,7 +85,9 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
 
-[link][Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
+###Detailed analysis:
+
+[Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
 
 
 ### Synthesis output
