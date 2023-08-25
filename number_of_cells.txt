@@ -1,0 +1,209 @@
+
+10. Printing statistics.
+
+=== ALUControl ===
+
+   Number of wires:                 24
+   Number of wire bits:             35
+   Number of public wires:           4
+   Number of public wire bits:      15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 23
+     $_ANDNOT_                       3
+     $_AND_                          1
+     $_AOI3_                         2
+     $_NAND_                         2
+     $_NOR_                          3
+     $_NOT_                          2
+     $_OAI3_                         2
+     $_ORNOT_                        3
+     $_OR_                           5
+
+=== JR_Control ===
+
+   Number of wires:                  7
+   Number of wire bits:             11
+   Number of public wires:           3
+   Number of public wire bits:       7
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     $_ANDNOT_                       2
+     $_NOR_                          1
+     $_ORNOT_                        1
+     $_OR_                           1
+
+=== alu ===
+
+   Number of wires:                310
+   Number of wire bits:            357
+   Number of public wires:           5
+   Number of public wire bits:      52
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                322
+     $_ANDNOT_                      42
+     $_AND_                         20
+     $_AOI3_                        24
+     $_AOI4_                        15
+     $_MUX_                         17
+     $_NAND_                         3
+     $_NOR_                         31
+     $_NOT_                         21
+     $_OAI3_                        40
+     $_OAI4_                         2
+     $_ORNOT_                       31
+     $_OR_                          37
+     $_XNOR_                         3
+     $_XOR_                         36
+
+=== control ===
+
+   Number of wires:                 54
+   Number of wire bits:             59
+   Number of public wires:          12
+   Number of public wire bits:      17
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 55
+     $_ANDNOT_                      15
+     $_AOI3_                         9
+     $_MUX_                          4
+     $_NAND_                         5
+     $_NOT_                          5
+     $_OAI3_                         1
+     $_ORNOT_                        4
+     $_OR_                          12
+
+=== data_memory ===
+
+   Number of wires:               9001
+   Number of wire bits:          12924
+   Number of public wires:         264
+   Number of public wire bits:    4187
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              12849
+     $_ANDNOT_                     271
+     $_DFF_P_                     4096
+     $_MUX_                       8176
+     $_NAND_                         5
+     $_NOR_                          1
+     $_NOT_                          1
+     $_ORNOT_                        8
+     $_OR_                         291
+
+=== instr_mem ===
+
+   Number of wires:                 70
+   Number of wire bits:            343
+   Number of public wires:          19
+   Number of public wire bits:     292
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     $_ANDNOT_                      24
+     $_AND_                          1
+     $_AOI3_                         2
+     $_MUX_                          5
+     $_NOR_                          4
+     $_NOT_                          1
+     $_OAI3_                         8
+     $_ORNOT_                        3
+     $_OR_                          16
+
+=== mips_16 ===
+
+   Number of wires:                274
+   Number of wire bits:            590
+   Number of public wires:          39
+   Number of public wire bits:     355
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                309
+     $_ANDNOT_                      58
+     $_AND_                          3
+     $_AOI3_                         8
+     $_DFF_PP0_                     16
+     $_MUX_                         97
+     $_NAND_                         9
+     $_NOR_                          3
+     $_NOT_                         24
+     $_OAI3_                         7
+     $_ORNOT_                        5
+     $_OR_                          28
+     $_XNOR_                        16
+     $_XOR_                         28
+     ALUControl                      1
+     JR_Control                      1
+     alu                             1
+     control                         1
+     data_memory                     1
+     instr_mem                       1
+     register_file                   1
+
+=== register_file ===
+
+   Number of wires:                485
+   Number of wire bits:            746
+   Number of public wires:          16
+   Number of public wire bits:     172
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                718
+     $_ANDNOT_                       9
+     $_AOI3_                        36
+     $_DFF_PP0_                    112
+     $_MUX_                        224
+     $_NAND_                         5
+     $_NOT_                        115
+     $_OAI3_                        32
+     $_OAI4_                        96
+     $_ORNOT_                        6
+     $_OR_                          83
+
+=== design hierarchy ===
+
+   mips_16                           1
+     ALUControl                      1
+     JR_Control                      1
+     alu                             1
+     control                         1
+     data_memory                     1
+     instr_mem                       1
+     register_file                   1
+
+   Number of wires:              10225
+   Number of wire bits:          15065
+   Number of public wires:         362
+   Number of public wire bits:    5097
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              14338
+     $_ANDNOT_                     424
+     $_AND_                         25
+     $_AOI3_                        81
+     $_AOI4_                        15
+     $_DFF_PP0_                    128
+     $_DFF_P_                     4096
+     $_MUX_                       8523
+     $_NAND_                        29
+     $_NOR_                         43
+     $_NOT_                        169
+     $_OAI3_                        90
+     $_OAI4_                        98
+     $_ORNOT_                       61
+     $_OR_                         473
+     $_XNOR_                        19
+     $_XOR_                         64
+
