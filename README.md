@@ -49,7 +49,7 @@ __Test Bench__:
 
 [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
-Iverilog and gtkwave codelines(Presynthesis):
+__Iverilog and gtkwave codelines:__
 ```
 - iverilog <filetop.v> <file1.v> …. <tb_filetop.v>
 - ./a.out
