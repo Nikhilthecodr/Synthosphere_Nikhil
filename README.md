@@ -61,11 +61,11 @@ Iverilog and gtkwave codelines(Presynthesis):
 Copy the generated dumpfile.vcd and run it with
 - gtkwave dumpfile.vcd
 ```
-__Simulation Waveform__
+__RTL Simulation Waveform__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3c411e04-21fd-4872-97a9-7020704dbbe3)
 
-__synthesis__
+__Synthesis__
 
  Flow for synthesis
  ```
@@ -92,7 +92,7 @@ __Design Hierarchy__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/12d7ac41-4814-403f-ba7f-a158b2331337)
 
-__synthesis output__
+__Synthesis output__
 
 MIPS Processor
 
