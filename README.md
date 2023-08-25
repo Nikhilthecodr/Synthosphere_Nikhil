@@ -85,11 +85,6 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
 
-![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/7b4dd459-77f0-4121-b2c6-a0e329586aeb)
-
-![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/87cd52b6-6c04-4511-9e67-52e302eb5870)
-
-![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/12d7ac41-4814-403f-ba7f-a158b2331337)
 
 ### Synthesis output
 
