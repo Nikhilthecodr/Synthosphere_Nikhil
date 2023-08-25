@@ -49,7 +49,8 @@ __RTL of all the modules__
      5. [Instruction Set](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/instruction.v)
      6. [Register file](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/register.v)
      7. [Main module processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/processor.v)
-__Test Bench__
+
+__Test Bench__: 
    [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
 Iverilog and gtkwave codelines(Presynthesis):
@@ -59,5 +60,27 @@ Iverilog and gtkwave codelines(Presynthesis):
 Copy the generated dumpfile.vcd and run it with
 - gtkwave dumpfile.vcd
 ```
+__Simulation Waveform__
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3c411e04-21fd-4872-97a9-7020704dbbe3)
+
+__synthesis__
+
+ Flow for synthesis
+ ```
+yosys
+read_liberty -lib <relative or abs path>/ lib file 
+read_verilog <verilog_file.v>
+synth -top <verilog_file> 
+abc -liberty <relative or abs path>/ lib file ( generates results on ur design → netlist verify them before continuing)
+show 
+write_verilog <file_name>.v  OR    write_verilog -noattr  <file_name>.v 
+```
+
+The standard cells were invoked when mapped to the standard library file
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
+
+
+
 
 
