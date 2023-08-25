@@ -82,6 +82,10 @@ The standard cells were invoked when mapped to the standard library file
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
 
+__Sythesized Netlist File__
+
+ [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
+
 __Design Hierarchy__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba1ee7c5-0dbb-42b5-9d3a-87af3247e231)
