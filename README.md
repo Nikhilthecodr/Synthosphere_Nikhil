@@ -33,6 +33,10 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 | j label           | Jump to label               | label = label to jump to                                                              |
 | adds rd, rs, I    | rd = rs + I                 | rd = address, rs = source, I = 16-bit immediate value                                 |
 
+### Control Unit Design
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ae024a0b-a8fb-47b9-8200-976fa7564053)
+
 ### Block Diagram
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/c362af84-479c-4c02-856f-5fd6fb52ec5a)
