@@ -90,7 +90,7 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ### Sythesized Netlist File
 
- [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
+ * [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
 
 ### Design hierarchy and number of instances
 
@@ -98,7 +98,7 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ### Detailed analysis:
 
-[Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
+* [Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
 
 
 ### Synthesised design
