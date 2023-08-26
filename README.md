@@ -47,7 +47,7 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 
 ### Test Bench:
 
- [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
+ * [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
 ## RTL Simulation
 
