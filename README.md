@@ -88,7 +88,7 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/14767b66-45bd-4287-8688-77a6b5b714b1)
 
-### Sythesized Netlist File
+### Synthesized Netlist File
 
  * [Synthesized Netlist of all modules](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/sythesized_netlist_processor.v)
 
@@ -101,7 +101,7 @@ The following standard cells were invoked when mapped to the standard library fi
 * [Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
 
 
-### Synthesised design
+## Synthesized design
 
 Used ```opt -purge``` command to remove unused modules and objects from a Verilog design during synthesis, optimizing the design's size and complexity.
 
