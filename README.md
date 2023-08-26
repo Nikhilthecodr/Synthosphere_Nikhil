@@ -103,7 +103,7 @@ The following standard cells were invoked when mapped to the standard library fi
 
 ### Synthesised design
 
-
+Used ```opt -purge``` command to remove unused modules and objects from a Verilog design during synthesis, optimizing the design's size and complexity.
 
 __MIPS Processor__
 
