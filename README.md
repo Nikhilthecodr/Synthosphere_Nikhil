@@ -94,11 +94,22 @@ The following standard cells were invoked when mapped to the standard library fi
 
 __MIPS Processor__
 
-![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/500800f9-e693-41f1-a8b4-70ea236263d2)
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba0d3909-ba86-4cec-8227-c51d2ce823f0)
 
-__ALU Control Unit__
+__Inststruction Set__
 
-![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/1ed3e0f3-688d-4081-bf50-81f9eba95f4c)
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/6b5eab0b-2b2c-4ccd-9895-cbeaceb3262d)
+
+
+__ALU__
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/d35d5b60-f0e3-4c98-9d93-321e5eeaf4df)
+
+
+__Control Unit__
+
+![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/127cb761-2b82-4719-b4a3-8e96471d92cf)
+
 
 ### GLS Simulation Result
 
