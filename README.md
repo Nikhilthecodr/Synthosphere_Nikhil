@@ -49,6 +49,14 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 
 [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
+## RTL Simulation
+
+### Tools used
+
+1. Icarus Verilog (iverilog): Open-source HDL simulator for digital circuit testing.
+
+2. GTKWave: Open-source waveform viewer for simulation results analysis.
+
 ### Iverilog and gtkwave codelines:
 ```
 - iverilog <filetop.v> <file1.v> …. <tb_filetop.v>
@@ -60,9 +68,12 @@ Copy the generated dumpfile.vcd and run it with
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3c411e04-21fd-4872-97a9-7020704dbbe3)
 
-### Synthesis
+## Synthesis
+### Tool used
 
- ### Flow for synthesis
+__Yosys:__ Open-source synthesis tool for designing digital circuits. Transforms RTL code into optimized gate-level representation.
+
+### Flow for synthesis
  ```
 yosys
 read_liberty -lib <relative or abs path>/ lib file 
@@ -90,7 +101,9 @@ The following standard cells were invoked when mapped to the standard library fi
 [Number of cells and instances](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/Number_of_cells.txt)
 
 
-### Synthesis output
+### Synthesised design
+
+
 
 __MIPS Processor__
 
@@ -115,8 +128,7 @@ __Control Unit__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/3448e83d-30a5-4cc9-9d45-4a04ab8aff5d)
 
-The functionality of 16-bit single cycle MIPS Processor is retained post-synthesis. Hence the deisgn does not have Simulation-Synthesis Mismatch
-
+The behavior and functionality of the 16-bit single-cycle MIPS Processor are successfully preserved after the synthesis process, ensuring that there is no disparity between the design's performance in simulation and its behavior in the synthesized hardware. This indicates that the synthesized design accurately represents the intended processor functionality, and any potential simulation-synthesis mismatch has been effectively mitigated.
 
 
 
