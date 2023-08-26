@@ -38,16 +38,16 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 ### RTL of all the modules
 * Program links:-
      1. [ALU Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu.v)
-     2. [ALU Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu_unit.v)
-     3. [Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/control_unit.v)
-     4. [Data Memory Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/data_memory.v)
-     5. [Instruction Set](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/instruction.v)
-     6. [Register file](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/register.v)
-     7. [Main module processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/processor.v)
+     3. [ALU Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu_unit.v)
+     4. [Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/control_unit.v)
+     5. [Data Memory Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/data_memory.v)
+     6. [Instruction Memory](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/instruction.v)
+     7. [Register file](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/register.v)
+     8. [Main module processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/processor.v)
 
 ### Test Bench:
 
-[Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
+ [Test Bench of Processor](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/tb_processor.v)
 
 ## RTL Simulation
 
@@ -109,7 +109,7 @@ __MIPS Processor__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/ba0d3909-ba86-4cec-8227-c51d2ce823f0)
 
-__Inststruction Set__
+__Instruction Memory__
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/6b5eab0b-2b2c-4ccd-9895-cbeaceb3262d)
 
