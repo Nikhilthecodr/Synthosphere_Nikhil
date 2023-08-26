@@ -8,7 +8,7 @@ __USN: 1BM21EC088__
 
 A 16-bit single-cycle MIPS processor is a simplified computer processor that operates on 16-bit data and instructions. It executes each instruction in just one clock cycle, making it straightforward but potentially limiting in terms of performance. This processor includes a basic set of components like registers, an arithmetic logic unit (ALU), a control unit, memory units for instructions and data, and a simple pipeline for instruction fetch, decode, execute, memory access, and write-back stages.
 
-### Instruction set Architecture
+### Instruction Set Architecture
 
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/a8701511-3670-47b0-8841-65e8528316db)
 
