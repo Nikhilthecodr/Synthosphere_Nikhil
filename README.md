@@ -36,7 +36,7 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 ![image](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/assets/111330348/c362af84-479c-4c02-856f-5fd6fb52ec5a)
 
 ### RTL of all the modules
-* Program links:-
+* __Program links:__
      1. [ALU Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu.v)
      3. [ALU Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/alu_unit.v)
      4. [Control Unit](https://github.com/Nikhilthecodr/Synthosphere_Nikhil/blob/main/control_unit.v)
