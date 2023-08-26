@@ -53,9 +53,9 @@ A 16-bit single-cycle MIPS processor is a simplified computer processor that ope
 
 ### Tools used
 
-1. Icarus Verilog (iverilog): Open-source HDL simulator for digital circuit testing.
+1. __Icarus Verilog (iverilog):__ Open-source HDL simulator for digital circuit testing.
 
-2. GTKWave: Open-source waveform viewer for simulation results analysis.
+2. __GTKWave:__ Open-source waveform viewer for simulation results analysis.
 
 ### Iverilog and gtkwave codelines:
 ```
